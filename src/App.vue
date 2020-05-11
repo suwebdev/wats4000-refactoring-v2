@@ -1,32 +1,47 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <h1>Weather Service</h1>
     <router-view/>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+  margin-top: 60px;
+  padding: 20px;
 }
-
-#nav {
-  padding: 30px;
+html {
+  background: #666;
+  padding: 0;
+  margin: 0;
 }
-
-#nav a {
+body {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+  background: #fff;
+}
+/* dl {
+  padding: 5px;
+  background: #e8e8e8;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 120px;
+  text-align: right;
   font-weight: bold;
-  color: #2c3e50;
+  color: blue;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+dd {
+  margin: 0 0 0 130px;
+  padding: 0 0 0.5em 0;
 }
+dt::after {
+  content: ":";
+} */
 </style>
